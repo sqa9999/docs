@@ -228,7 +228,7 @@ example of using key files for sharded cluster authentication, see
 Authentication on Sharded Clusters
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-In sharded clusters, applications authenticate to directly to
+In sharded clusters, applications authenticate directly to
 :program:`mongos` instances, using credentials stored in the ``admin``
 database of the
 :term:`config servers <config server>`. The shards in the sharded
